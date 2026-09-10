@@ -1,0 +1,39 @@
+<form action="/update" method="post">
+   <div class="container">
+      <h1>Update Common Room Information.
+      </h1>
+      <p>Please fill out the form to edit common room information: </p>
+      <hr>
+
+      <label for="name">Room name: </label>
+      <input type="text" placeholder="Enter common room name" name="name" required></br>
+
+      <label for="capacity">Capacity: </label>
+      <input type="text" placeholder="Enter common room capacity" name="capacity" required></br>
+
+       <label for="floor">Floor number: </label>
+       <input type="text" placeholder="Enter floor number: " name="floor" required></br>
+
+       <label for="timeSlots">Time slots: </label>
+       <input type="text" placeholder="List availability time slots: " name="timeSlots" required></br>
+
+       <label for="avail">Availability: </label>
+      <input type="text" placeholder="Enter True or False" name="avail" required></br>
+
+      <label for="numReserve">Reservation limit: </label>
+      <input type="text" placeholder="new reservation limit" name="numReserve" required></br>
+
+
+
+      <div class="clearfix">
+         <input type="submit" value="Submit form!">
+      </div>
+   </div>
+</form>
+<form>
+    <input type="button" value="Go back!" onclick="history.back()">
+</form>
+
+<!-- <a href="allRooms.html">
+   <button class="btn"><i class="fa fa-bars"></i> view all rooms</button>
+</a> -->

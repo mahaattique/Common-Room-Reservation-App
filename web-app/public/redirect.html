@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<!--
+	this is the success prompt. it has a button to go back to the home.
+-->
+
+<html>
+<style>
+   .button {
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 16px;
+      margin: 3px;
+      transition-duration: 0.45s;
+      cursor: pointer;
+   }
+
+   .buttonColor {
+      background-color: white;
+      color: #866c0e;
+      border: 2px solid #d4ac0e;
+   }
+
+   .buttonColor:hover {
+      background-color: #d4ac0e;
+      color: white;
+   }
+
+   header {
+      display: inline-block;
+      margin: 5.5%;
+      width: 100%;
+   }
+
+   section {
+      display: inline-block;
+      margin: 1.5%;
+      width: 97%;
+   }
+
+   h1 {
+      color: #a4840f;
+   }
+
+   .container {
+      height: 120px;
+      max-width: 100%;
+      position: relative;
+      border: 3px solid #ffefb4;
+      background-color: #ffefb4;
+   }
+
+   .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+   }
+
+   .centerHori {
+      margin: 10;
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+   }
+
+   img {
+      height: auto;
+      max-width: 99%;
+      border: 5px solid #f0ca41;
+   }
+</style>
+
+<body class="home-page">
+   <div id="main-content">
+      <header id="title">
+         <div class="centerHori">
+            <h3>The action was successfully completed.</h3>
+            <h3>Click button to be redirected to the home page.</h3>
+         </div>
+      </header>
+
+      <section>
+         <div class="container">
+            <div class="center">
+               <center>
+                  <a href="home.html"><button class="button buttonColor">Home Page</button></a>
+
+               </center>
+            </div>
+         </div>
+      </section>
+   </div>
+
+
+
+</body>
+
+</html>

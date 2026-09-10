@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	The home page for our admin website platform.
+-->
+
+<html>
+	<style>
+        .button {
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            margin: 3px;
+            transition-duration: 0.45s;
+            cursor: pointer;
+        }
+
+        .buttonColor {
+            background-color: white; 
+            color: #866c0e; 
+            border: 2px solid #d4ac0e;
+        }
+
+        .buttonColor:hover {
+            background-color: #d4ac0e;
+            color: white;
+        }
+
+        header {
+            display: inline-block;
+            margin: 5.5%;
+            width: 100%;
+        }
+
+        section {
+            display: inline-block;
+            margin: 1.5%;
+            width: 97%;
+        }
+
+		h1 {
+			color: #a4840f;
+		}
+
+        .container {
+            height: 120px;
+            max-width: 100%;
+            position: relative;
+            border: 3px solid #ffefb4;
+            background-color: #ffefb4;
+        }
+
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .centerHori {
+            margin: 10;
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        img {
+            height: auto;
+            max-width: 99%;
+            border: 5px solid #f0ca41;
+        }
+	</style>
+
+	<body class="home-page">
+		<div id="main-content">
+			<header id="title">
+                <div class="centerHori">
+                    <h1>Common Room Admin Home Page</h1>
+                </div>
+			</header>
+
+            <section>
+                <div class="container">
+                    <div class="center">
+                        <center>
+                            <a href="home.html"><button class="button buttonColor">Home Page</button></a>
+                            <a href="signup.html"><button class="button buttonColor">Sign Up</button></a>
+                            <a href="login.html"><button class="button buttonColor">Log In</button></a>
+                            <a href="commonRoomForm.html"><button class="button buttonColor">Common Room Form</button></a>
+                            <a href="userAddForm.html"><button class="button buttonColor">User Form</button></a>
+                            <a href="reservationAddForm.html"><button class="button buttonColor">Reservation Form</button></a>
+                        </center>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <img src="BrynMawrCollege.png" alt="BMC">
+        
+		<footer id="footnote">
+			<p class="copyright">&copy;aahmed, ashultz, gchoe, mattique</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+   <body class="commonroom-form-page">
+      <form action="/create" method="post">
+         <div class="container">
+            <h1>Add a common room!</h1>
+            <p>Please fill out the form to add a common room.</p>
+      
+            <br><label for="name">Room name: </label>
+            <input type="text" placeholder="Enter common room name" name="name" required></br>
+      
+            <br><label for="capacity">Capacity: </label>
+            <input type="text" placeholder="Enter common room capacity" name="capacity" required></br>
+
+            <br><label for="dorm">Dorm: </label>
+            <input type="text" placeholder="Enter dorm name" name="dorm" required></br>
+            
+            <br><label for="floor">Floor number: </label>
+            <input type="text" placeholder="Enter floor number: " name="floor" required></br>
+
+            <br><label for="timeSlots">Time slots: </label>
+            <input type="text" placeholder="List availability time slots: " name="timeSlots" required></br>
+
+            <br><label for="dateSlots">Date slots: </label>
+            <input type="text" placeholder="List availability date slots: " name="dateSlots" required></br>
+
+            <br><label for="avail">Availability: </label>
+            <input type="text" placeholder="Enter if dorm is available for access: " name="avail" required></br>
+
+            <br><label for="numReserve">Limit of consecutive reservations: </label>
+            <input type="text" placeholder="Enter number of consecutive reservations: " name="numReserve" required></br>
+      
+            <div class="clearfix">
+               <input type="submit" value="Submit form!">
+            </div>
+         </div>
+      </form>
+      <form>
+         <input type="button" value="Go back!" onclick="history.back()">
+      </form>
+
+<!--       <a href="https://localhost:3000/allRooms">
+         <button class="btn"><i class="fa fa-bars"></i> View all rooms</button>
+      </a> -->
+   </body>
+</html>

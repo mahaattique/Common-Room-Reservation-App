@@ -1,0 +1,42 @@
+<html>
+   <body class="user-add-form-page">
+      <form action="/addUser" method="post">
+         <div class="container">
+            <h1>Add user information!</h1>
+            <p>Please fill out the form to add a user.</p>
+      
+            <br><label for="firstName">First name: </label>
+            <input type="text" placeholder="Enter first name" name="firstName" required></br>
+      
+            <br><label for="lastName">Last name: </label>
+            <input type="text" placeholder="Enter last name" name="lastName" required></br>
+
+            <br><label for="id">College ID: </label>
+            <input type="text" placeholder="Enter college ID" name="id" required></br>
+            
+            <br><label for="classYear">Graduation Year: </label>
+            <input type="text" placeholder="Enter graduation year: " name="classYear" required></br>
+
+            <br><label for="collegeEmail">College email: </label>
+            <input type="text" placeholder="Enter college email: " name="collegeEmail" required></br>
+
+            <br><label for="password">Password: </label>
+            <input type="text" placeholder="Enter password: " name="password" required></br>
+
+            <br><label for="role">User role: </label>
+            <input type="text" placeholder="Enter user role: " name="role" required></br>
+
+            <br><div class="clearfix">
+               <input type="submit" value="Submit form!">
+            </div></br>
+         </div>
+      </form>
+      <form>
+         <input type="button" value="Go back!" onclick="history.back()">
+        </form>
+
+<!--       <a href="https://localhost:3000/allUsers">
+         <button class="btn"><i class="fa fa-bars"></i> View all users</button>
+      </a> -->
+   </body>
+</html>

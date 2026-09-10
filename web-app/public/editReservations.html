@@ -1,0 +1,30 @@
+<form action="/editRes" method="post">
+    <div class="container">
+        <h1>Update Reservation Information.
+        </h1>
+        <p>Please fill out the form to edit reservation information: </p>
+        <hr>
+  
+        <label for="roomName">Room name: </label>
+        <input type="text" placeholder="Enter common room name" name="roomName" required></br>
+  
+        <label for="dorm">Dorm name: </label>
+        <input type="text" placeholder="Enter dorm name" name="dorm" required></br>
+  
+         <label for="floor">Floor number: </label>
+         <input type="text" placeholder="Enter floor number: " name="floor" required></br>
+  
+         <label for="date">Date: </label>
+         <input type="text" placeholder="Enter date: " name="date" required></br>
+
+         <label for="time">Time: </label>
+         <input type="text" placeholder="Enter reservation time: " name="time" required></br>
+  
+        <div class="clearfix">
+           <input type="submit" value="Submit form!">
+        </div>
+     </div>
+</form>
+<form>
+   <input type="button" value="Go back!" onclick="history.back()">
+  </form>
